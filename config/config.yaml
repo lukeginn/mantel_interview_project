@@ -1,0 +1,42 @@
+# Settings for main.py. Each map section is one map that gets trained.
+
+seed: 42
+
+colours:
+  n_samples: 10
+  # Names of the three columns, used in the cluster summary tables.
+  feature_names: [red, green, blue]
+
+clustering:
+  # The range of cluster numbers tried when looking for the best one.
+  min_clusters: 2
+  max_clusters: 8
+
+# snapshot_every: save a debug picture of the map every N iterations (0 = off).
+# n_clusters: number of k-means clusters for the cluster map (2 to 8, the colours available).
+#   null = use the best number found by the silhouette score.
+colour_map_100:
+  width: 10
+  height: 10
+  n_iterations: 100
+  learning_rate: 0.1
+  snapshot_every: 10
+  n_clusters: null
+
+colour_map_1000:
+  width: 100
+  height: 100
+  n_iterations: 1000
+  learning_rate: 0.1
+  snapshot_every: 100
+  n_clusters: null
+
+# A large map gives smooth regions in the plot. For using nodes as segments,
+# a smaller map (about 5 * sqrt(n_rows) nodes, e.g. 8x8) is more suitable.
+wine_map:
+  width: 60
+  height: 60
+  n_iterations: 100
+  learning_rate: 0.1
+  snapshot_every: 10
+  n_clusters: null

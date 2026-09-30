@@ -1,0 +1,5 @@
+feature,Cluster 0,Cluster 1,Cluster 2,Cluster 3,Cluster 4,Cluster 5,Cluster 6,Cluster 7,All
+n_samples,2,1,1,1,1,1,1,2,10
+red,0.80 (high),0.76 (high),0.04 (low),0.35 (low),0.23 (low),0.78 (high),0.64 (average),0.57 (average),0.56
+blue,0.81 (high),0.13 (low),0.68 (average),0.89 (high),0.06 (low),0.47 (average),0.44 (low),0.95 (high),0.62
+green,0.54 (average),0.79 (high),0.15 (low),0.97 (high),0.55 (average),0.19 (low),0.82 (high),0.23 (low),0.50

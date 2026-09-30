@@ -1,0 +1,15 @@
+feature,Cluster 0,Cluster 1,Cluster 2,All
+n_samples,60,56,62,178
+alcohol,12.22 (low),13.06 (average),13.70 (high),13.00
+od280/od315_of_diluted_wines,2.86 (average),1.73 (low),3.17 (high),2.61
+proline,504.38 (low),624.95 (average),"1,091.73 (high)",746.89
+color_intensity,2.96 (low),6.85 (high),5.47 (average),5.06
+flavanoids,2.12 (average),0.85 (low),3.01 (high),2.03
+hue,1.06 (average),0.72 (low),1.07 (average),0.96
+total_phenols,2.28 (average),1.69 (low),2.85 (high),2.30
+ash,2.21 (low),2.41 (average),2.47 (average),2.37
+magnesium,92.40 (low),99.86 (average),106.74 (average),99.74
+proanthocyanins,1.70 (average),1.13 (low),1.90 (high),1.59
+alcalinity_of_ash,20.09 (average),21.00 (average),17.56 (low),19.49
+malic_acid,1.91 (average),3.17 (high),2.00 (average),2.34
+nonflavanoid_phenols,0.35 (average),0.45 (high),0.29 (low),0.36
