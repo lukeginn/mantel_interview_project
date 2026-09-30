@@ -190,3 +190,5 @@ afterwards, to check the result.
 On real unlabelled data, such as customer segmentation, the same steps apply: train the map,
 cluster its nodes, choose k by silhouette, then describe each cluster by its most distinctive
 features. None of these steps needs labels.
+
+Final thoughts: Variations of SOM exist. Batch SOM updates the map once per full dataset path and shuffling SOM, which uses a different random sample of the full dataset per iteration. Mini-batch SOM combines both of these ideas and can be ideal for very large datasets.
